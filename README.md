@@ -1,4 +1,4 @@
-# backstage
+# supermarket-demo
 
 ## Project setup
 ```
