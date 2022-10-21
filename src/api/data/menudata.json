@@ -1,0 +1,61 @@
+{
+    "menu1": [
+        {
+            "path": "/home",
+            "name": "home",
+            "label": "首页",
+            "icon": "s-home",
+            "url": "home/index"
+        },
+        {
+            "path": "/mall",
+            "name": "mall",
+            "label": "商品管理",
+            "icon": "goods",
+            "url": "mall/index"
+        },
+        {
+            "path": "/order",
+            "name": "order",
+            "label": "订单管理",
+            "icon": "truck",
+            "url": "order/index"
+        }
+    ],
+    "menu2": [
+        {
+            "path": "/home",
+            "name": "home",
+            "label": "首页",
+            "icon": "s-home",
+            "url": "home/index"
+        },
+        {
+            "path": "/order",
+            "name": "order",
+            "label": "订单管理",
+            "icon": "truck",
+            "url": "order/index"
+        },
+        {
+            "label": "其他",
+            "icon": "location",
+            "children": [
+                {
+                    "path": "/page1",
+                    "name": "page1",
+                    "label": "页面1",
+                    "icon": "setting",
+                    "url": "other/pageOne.vue"
+                },
+                {
+                    "path": "/page2",
+                    "name": "page2",
+                    "label": "页面2",
+                    "icon": "setting",
+                    "url": "other/pageTwo.vue"
+                }
+            ]
+        }
+    ]
+}
